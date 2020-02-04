@@ -163,10 +163,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="SwU-lE-Iyy">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <rect key="frame" x="0.0" y="0.0" width="380" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <items>
-                        <barButtonItem title="Done" style="done" id="998-ee-dXa">
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="6Jx-oa-iFG"/>
+                        <barButtonItem style="done" systemItem="done" id="998-ee-dXa">
                             <connections>
                                 <action selector="doneButtonPresst:" destination="BYZ-38-t0r" id="NFF-PX-lOI"/>
                             </connections>

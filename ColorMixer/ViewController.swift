@@ -40,7 +40,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.greenTextField.delegate = self
         self.blueTextField.delegate = self
         
-        
     }
     
     // MARK: - Methods
@@ -63,7 +62,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         redSliderDrug()
         greenSliderDrug()
         blueSliderDrug()
-
+        
         return true
     }
     
